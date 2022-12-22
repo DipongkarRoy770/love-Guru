@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.love-box{
+  background: url(love.jpg) no-repeat center; 
+  background-size: cover;
+  height: 715px;
+  width: 100%;
+  position: fixed;
+}
+.model{
+    text-align: center;
+
+}
+h2{
+    color: rgb(65, 52, 237);
+    text-shadow:2px 3px 4px rgb(41, 125, 10);
+}
+h2:hover{
+    color: black;
+    text-shadow:2px 3px 4px rgb(196, 235, 182);
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btnn{
+    background-color: rgb(232, 84, 84);
+    padding:7px 12px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    margin: 15px;
+    
+}
+.btnn:hover{
+    background-color: indigo;
+    cursor: pointer;
+    color: rgb(202, 210, 203);
+}
+/* }
+@media screen and(max-width:700){
+    body{
+        background-color: rgb(76, 153, 153);
+    }
+    h2{
+        color: rgb(223, 238, 225);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rebeccapurple;
+    } 
+    h2{
+        color: black;
+    } 
+} */
